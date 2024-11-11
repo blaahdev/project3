@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta name="viewport" content="user-scalable=no" />
+    <!-- CSS STYLES -->
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Nike Product</title>
+  </head>
+  <body>
+    <div class="card-container">
+      <div class="card">
+        <div class="card-top" id="card-top">
+          <img src="./images/nike.png" class="logo-img" />
+          <h1>Air Structure</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quasi
+            ratione praesentium eum commodi modi neque dignissimos eligendi illo
+            officiis!
+          </p>
+          <img src="./images/shoe1.png" class="product-img blue active" />
+          <img src="./images/shoe2.png" class="product-img red" />
+        </div>
+        <div class="card-bottom">
+          <div class="info">
+            <h1>Air Structure <span class="badge">NEW</span></h1>
+            <h3 class="caption">Running Collections</h3>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="size">
+            <h4>Size</h4>
+            <div class="size-options">
+              <span class="active">7</span>
+              <span>8</span>
+              <span>9</span>
+              <span>10</span>
+            </div>
+          </div>
+          <div class="color">
+            <h4>Color</h4>
+            <div class="color-options">
+              <span class="blue" id="blue"></span>
+              <span class="red" id="red"></span>
+            </div>
+          </div>
+          <div class="price blue" id="price">
+            <span class="price-currency">USD</span>
+            <span class="price-amount">350,00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
